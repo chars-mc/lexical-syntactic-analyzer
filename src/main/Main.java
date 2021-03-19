@@ -50,8 +50,9 @@ public class Main {
         if (results == null)
           return;
 
+        sb.append("Line\t").append("Lexem\t").append("Token\n");
         results.forEach((k, v) -> {
-          sb.append(v[0]).append("\t").append(v[1]).append("\n");
+          sb.append(k).append("\t").append(v[0]).append("\t").append(v[1]).append("\n");
           resultOutput.setText(sb.toString());
         });
       }
