@@ -1,6 +1,6 @@
 ## LEXICAL & SYNTACTIC ANALYZER
 
-Link of the repository: https://github.com/chars-mc/lexical-syntactic-analyzer
+![Main window](screenshots/main_window.png)
 
 ## Usage
 
